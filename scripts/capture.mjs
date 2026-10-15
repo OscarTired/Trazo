@@ -1,0 +1,10 @@
+import { chromium } from '@playwright/test';
+import { mkdir } from 'node:fs/promises';
+await mkdir('.impeccable/review', {recursive:true});
+const browser = await chromium.launch({executablePath:process.env.CHROME_PATH??'C:/Program Files/Google/Chrome/Application/chrome.exe', headless:true});
+const page = await browser.newPage({ viewport:{width:1536,height:1024},deviceScaleFactor:1 });
+await page.goto('http://127.0.0.1:5173/?review=1', {waitUntil:'networkidle'});
+await page.evaluate(()=>document.fonts.ready);
+await page.screenshot({path:'.impeccable/review/hero-repro.png'});
+console.log(await page.title());
+await browser.close();

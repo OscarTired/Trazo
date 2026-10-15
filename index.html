@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f1eee5" />
+    <meta name="description" content="Una pequeña historia de nuestra necesidad de dibujar. Sigue un trazo desde las cuevas hasta las pantallas." />
+    <title>Trazo — Una historia del dibujo</title>
+    <link rel="icon" type="image/svg+xml" href="%BASE_URL%favicon.svg" />
+    <link rel="preload" as="image" href="%BASE_URL%assets/history-art.webp" />
+    <script type="module" src="/src/main.ts"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#origins">Saltar a la historia</a>
+    <main id="main">
+      <section class="hero" id="inicio">
+        <img class="history-art" src="%BASE_URL%assets/history-art.webp" alt="" fetchpriority="high" width="1983" height="793" />
+        <header class="masthead">
+          <a class="wordmark" href="#inicio" aria-label="Trazo, inicio">trazo.</a>
+          <nav aria-label="Navegación principal">
+            <a class="nav-story" href="#origins">La historia</a>
+            <a class="nav-journey" href="#recorrido">El recorrido</a>
+          </nav>
+          <div class="language" role="group" aria-label="Idioma">
+            <button type="button" data-lang="es" aria-pressed="true" aria-label="Español">ES</button>
+            <span aria-hidden="true">/</span>
+            <button type="button" data-lang="en" aria-pressed="false" aria-label="English">EN</button>
+          </div>
+        </header>
+        <h1 class="hero-title"><span class="title-line">Toda historia</span><span class="title-line">empieza con</span><span class="title-line">un <em>trazo.</em></span></h1>
+        <p class="hero-annotation">Antes de las palabras…</p>
+        <svg class="annotation-arrow" viewBox="0 0 55 60" aria-hidden="true"><path d="M7 3C9 30 26 42 43 56m-11-4 12 5-2-12"/></svg>
+        <p class="hero-intro">De las primeras huellas en una cueva a los píxeles de hoy.<br />Una pequeña historia de nuestra necesidad de dibujar.</p>
+        <a class="outline-button hero-cta" href="#origins">Sigue el trazo <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v17m-6-6 6 6 6-6"/></svg></a>
+        <div class="hero-footnote"><span>El primer impulso</span><span class="footnote-rule" aria-hidden="true"></span><span class="date">Hace más de 40.000 años</span></div>
+      </section>
+      <div class="narrator" aria-hidden="true"><canvas width="128" height="220"></canvas></div>
+    </main>
+    <nav class="chapter-rail" aria-label="Épocas de la historia">
+      <a class="chapter-dot" href="#origins" aria-label="Orígenes" aria-current="step"><span>Orígenes</span></a>
+      <a class="chapter-dot" href="#ancient" aria-label="Mundo antiguo"><span>Mundo antiguo</span></a>
+      <a class="chapter-dot" href="#medieval" aria-label="Edad Media"><span>Edad Media</span></a>
+      <a class="chapter-dot" href="#renaissance" aria-label="Renacimiento"><span>Renacimiento</span></a>
+      <a class="chapter-dot" href="#modern" aria-label="Mundo moderno"><span>Mundo moderno</span></a>
+      <a class="chapter-dot" href="#today" aria-label="Hoy"><span>Hoy</span></a>
+    </nav>
+  </body>
+</html>

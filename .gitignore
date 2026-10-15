@@ -1,0 +1,17 @@
+node_modules/
+dist/
+.impeccable/
+.agents/
+.codex/
+skills-lock.json
+PRODUCT.md
+DESIGN.md
+.vite/
+*.log
+.env
+.env.*
+!.env.example
+test-results/
+playwright-report/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Trazo</title>
+  <desc id="desc">A graphite letter t and a red pencil on a folded sheet of paper.</desc>
+  <path d="M39 20H126L158 52V164Q158 172 150 172H39Q31 172 31 164V28Q31 20 39 20Z" fill="#F1EEE5" stroke="#B7AFA0" stroke-width="1.5"/>
+  <path d="M126 20V45Q126 52 133 52H158" fill="#E1DACE" stroke="#B7AFA0" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M48 143Q70 133 84 144T117 144" stroke="#B7AFA0" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M87 53L85 112Q85 132 108 123M64 78L117 76" stroke="#292823" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M90 53L88 112Q88 128 107 125M64 81L117 79" stroke="#292823" stroke-opacity=".25" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M115 135L146 104L153 111L122 142L112 145L115 135Z" fill="#A32D20"/>
+  <path d="M112 145L115 135L122 142L112 145Z" fill="#CBBCA1"/>
+  <path d="M112 145L116 143L113 141L112 145Z" fill="#292823"/>
+  <path d="M142 108L149 115" stroke="#F1EEE5" stroke-width="2"/>
+</svg>
