@@ -15,3 +15,9 @@ test-results/
 playwright-report/
 .DS_Store
 Thumbs.db
+/videos/
+/docs/social-posts.md
+/scripts/capture-showcase.mjs
+/docs/media/trazo-contact.jpg
+/docs/media/trazo-poster.jpg
+/docs/media/video-info.json

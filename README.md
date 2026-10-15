@@ -25,6 +25,16 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-A32D20?style=flat-square" alt="MIT License" /></a>
 </p>
 
+<p align="center">
+  <a href="https://oscartired.github.io/Trazo/media/trazo-showcase.mp4">
+    <img src="docs/media/trazo-preview.gif" alt="Watch the 25-second Trazo showcase" width="480" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://oscartired.github.io/Trazo/media/trazo-showcase.mp4">Watch or download the complete 25-second video</a>
+</p>
+
 ## The experience
 
 - Six chapters trace the history of drawing through original pencil illustrations revealed by scroll-driven hatching masks.
@@ -87,6 +97,8 @@ src/                    Story, translations, drawing and animation logic
 public/assets/          Original artwork, paper texture and optimized WebP assets
 public/trazo-mark.svg   Project mark used in this README
 scripts/                Browser checks and performance measurements
+public/media/          Finished showcase video
+docs/media/            Animated README preview
 .github/workflows/      GitHub Pages deployment
 SOURCES.md              Historical references
 ```
